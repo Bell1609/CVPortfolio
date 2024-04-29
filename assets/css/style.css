@@ -150,6 +150,7 @@
   text-shadow: 0 2px 4px rgba(23, 25, 37, 0.4);
   font-size: 16px;
   border-radius: 40px;
+  word-wrap: break-word;
 }
 
 .page-home .floating-button {
@@ -249,7 +250,7 @@
 }
 
 .timeline li .title {
-  width: 255px;
+  width: 260px;
   padding: 6px 20px;
   background-color: #747474;
   color: #fff;
@@ -678,7 +679,7 @@
 .about-details-container {
   justify-content: center;
   flex-direction: column;
-  white-space: normal;
+  white-space: nowrap;
 }
 
 .about-containers,
@@ -819,6 +820,7 @@ article .icon {
   justify-content: center;
   gap: 1rem;
   margin: 1rem;
+  flex-wrap: wrap;
 }
 
 .contact-info-container p {
