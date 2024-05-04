@@ -124,6 +124,49 @@ a:hover, a:active {
 /* 
     2. Button
 */
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 10px;
+  }
+   
+  .btn-color-1,
+  .btn-color-2 {
+    border: rgb(255, 255, 255) 0.1rem solid;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+  } /* Viền btn */
+  
+  .btn-color-1:hover,
+  .btn-color-2:hover {
+    cursor: pointer;
+  }
+  
+  .btn-color-1,
+  .btn-color-2:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  
+  .btn-color-1:hover {
+    background: rgb(0, 0, 0);
+  }
+  
+  .btn-color-2 {
+    background: none;
+  }
+  
+  .btn-color-2:hover {
+    border: rgb(0, 0, 0) 0.1rem solid;
+  }
+  
+  .btn-container {
+    gap: 1rem;
+  }
+
 .btn-theme {
     padding: 10px 30px;
     margin: 5px;
