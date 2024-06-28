@@ -69,7 +69,7 @@ $(function() {
 
 /* DOW CV */
 $('#download-cv').on('click', function() {
-  var pdfFile = '/assets/cv/tranquocnam.pdf'; 
+  var pdfFile = '/assets/cv/CV_tranquocnam.pdf'; 
   var link = document.createElement('a');
   link.href = pdfFile;
   link.download = 'tranquocnam.pdf';
