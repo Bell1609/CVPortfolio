@@ -25,6 +25,11 @@
   align-items: center; /* Canh các phần tử theo chiều dọc */
 }
 
+.flexone{
+  display: flex;
+  justify-content: center;
+}
+
 .text {
   margin-right: auto; /* Đẩy phần văn bản sang trái cùng */
 }
